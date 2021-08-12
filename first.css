@@ -1,0 +1,248 @@
+.load{
+	  animation: slide 2s;
+	  }
+	  
+	  .slider{
+	  background-repeat:no-repeat;
+	  background-size: cover;
+	  background-position: center;
+	  width: cover;
+	  height: 630px;
+	  animation: slide 40s infinite;
+	  }
+	  
+	  .content{
+	  color: black;
+	  width: cover;
+	  height: 630px;
+	   background-color: rgba(0,0,0,0.6);
+	  }
+	  
+	  .principal{
+	  left: 50%;
+	  top 50%;
+	  transform: translate(-50%,-50%);
+	  position: absolute;
+	  letter-spacing: 5px;
+	  text-align: center;
+	  }
+        
+      .principal h1{
+      font-size: 70px;
+	  margin-bottom 20px;
+     }	  
+     
+     .principal p{
+      font-size: 20px;
+     }	 
+	  
+	  @keyframes slide{
+	  0%{
+	    background-image:url('p1.jpg');
+	  }
+	  20%{
+	    background-image:url('p1.jpg');
+	  }
+     20.01%{
+	    background-image:url('p2.jpg');
+	  }
+	  40%{
+	    background-image:url('p2.jpg');
+	  }
+	  40.01%{
+	    background-image:url('p3.jpg');
+	  }
+	  60%{
+	    background-image:url('p3.jpg');
+	  }
+	  60.01%{
+	    background-image:url('p4.jpg');
+	  }
+	  80%{
+	    background-image:url('p4.jpg');
+	  }
+	  80.01%{
+	    background-image:url('p5.jpg');
+	  }
+	  100%{
+	    background-image:url('p5.jpg');
+	  }
+	  
+	  } 
+	   #appSummary {
+              
+              text-align: center;
+              margin-top:50px;
+              margin-bottom: 50px;
+              
+          }
+	  
+    .card
+  {
+  
+  
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 210px 210px 80px;
+  grid-template-areas: "image" "text" "stats";
+
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  font-family: roboto;
+  text-align: center;
+  
+
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin:30px;
+  
+  }
+   #image{
+   height:230px;
+   width: 355px;
+   
+   }
+   #footer {
+              
+              
+			   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("pic1.jpg");
+			   background-position:0px 400px;
+			   width:1320px;
+			   margin-left:14px;
+              padding-top: 150px;
+              margin-top: 50px;
+			  margin-bottom:10px;
+              text-align: center;
+              padding-bottom: 150px;
+          }
+       #navbar{
+	   
+	   background-color:#0006;
+	    }
+		nav ul li:hover
+		{
+		  background-color: #f39d1a;
+		}
+		nav ul li a
+		{ 
+		   padding: 30px;
+		}
+		
+		#video
+		{
+		   margin-left:50px;
+		
+		}
+		.card-image {
+  grid-area: image;
+  background: url("instagram.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.card-text {
+  grid-area: text;
+  margin: 25px;
+}
+
+
+.card-stats {
+  grid-area: stats; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: rgb(255, 7, 110);
+  padding-left:89px;
+  padding-top:18px;
+}
+.card-stats .stat {
+  padding:10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.card-stats .border {
+  border-left: 1px solid rgb(172, 26, 87);
+  border-right: 1px solid rgb(172, 26, 87);
+}
+.card-stats .value{
+  font-size:22px;
+  font-weight: 500;
+}
+.card-stats .value sup{
+  font-size:12px;
+}
+.card-stats .type{
+  font-size:11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  
+}
+/*card2*/
+.card-image.card2 {
+  background: url("twitter.jpg");
+  background-size: cover;
+}
+
+}
+.card-stats.card2 .border {
+  border-left: 1px solid rgb(20, 67, 185);
+  border-right: 1px solid rgb(20, 67, 185);
+}
+.card-stats.card2 {
+  background: rgb(7, 77, 255);
+  padding-left:89px;
+  padding-top:18px;
+}
+/*card3*/
+.card-image.card3 {
+  background: url("linkedin.jpg");
+  background-size: cover;
+}
+
+.card-stats.card3 .border {
+  border-left: 1px solid rgb(5, 5, 250);
+  border-right: 1px solid rgb(5, 5, 250);
+}
+.card-stats.card3 {
+  background: rgb(0, 18, 263);
+  padding-left:89px;
+  padding-top:18px;
+}
+.card:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+#cflexh{
+  
+  
+  
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+#heading{
+padding-top:490px;
+color:white;
+font-size:56px;
+font-weight: bold;
+  
+}
+
+#common
+{
+display:flex;
+}
+.form-control::-webkit-inner-spin-button, 
+.form-control::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
